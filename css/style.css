@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+/*=============== common part ============*/
+/*====================== header part start ==========================*/
+nav{
+	margin-bottom: 50px;
+}
+.navbar{
+	background: transparent;
+}
+.navbar-brand{
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}
+.nav-link{
+	font-size: 18px;
+}
+.navbar-bg{
+	background: linear-gradient(#f992a6, lightcyan);
+	box-shadow: 0 7px 20px -9px red;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 99;
+}
+/*================== navbar part end ======================*/
+/*================== banner part start ======================*/
+.banner-img{
+	margin: 80px 115px;
+	width: 60%;
+}
+.banner-img img{
+	width: 100%;
+	margin-bottom: -80px;
+}
+.banner{
+	margin-top: 200px;
+	position: relative;
+}
+.banner-tittle{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.banner-tittle h1:nth-child(1){
+	margin-bottom: 8px;
+}
+.banner-tittle h1{
+	font-size: 55px;
+	background: rgba(0, 0, 0, 0.75);
+	line-height: 70px;
+	color: #fff;
+	padding: 0px 10px 0 10px;
+}
+/* ------ ========= banner part end ======= ------- */
+/* -------- ====== fashion trands part start ===== ------- */
+.fashion-trends{
+	padding: 100px 0;
+}
+.fashion-box{
+	margin: 80px 0;
+}
+.title-style h1{
+	padding: 40px 0;
+}
+.title-style{
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 50%;
+	min-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+.title-style::after{
+	content: '';
+	width: 200px;
+	height: 100px;
+	background: #f992a6;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+}
+.title-style::before{
+	content: '';
+	width: 200px;
+	height: 100px;
+	background: #f992a6;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index: -1;
+}
+.trending-img{
+	position: relative;
+	margin-bottom: 15px;
+}
+.btn-class{
+	width: 150px;
+	padding: 10px 0;
+	outline: none;
+	border: 0;
+	border-radius: 2px;
+	position: absolute;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	transition: .4s;
+	opacity: 0;
+	z-index: 1;
+}
+.trending-img:hover .btn-class{
+	transform: translate(-50%, 50%);
+	bottom: 50%;
+	opacity: 1;
+}
+.overlay{
+	height: 0;
+	width: 100%;
+	top: 0;
+	background: #333;
+	position: absolute;
+	opacity: 0;
+	transition: .7s;
+}
+.trending-img:hover .overlay{
+	opacity: .5;
+	height: 100%;
+}
+/*===== -------- ====== fashion trands part end ===== ------- */
+/*===== -------- ====== offer part start ===== ------- */
+.offer{
+	background: url(../img/offer-img.jpg) no-repeat center;
+	background-size: cover;
+}
+.row{
+	margin: initial !important;
+}
+.subscribe{
+	max-width: 500px;
+	margin-top: 80px;
+	padding: 60px;
+	background: #ffffff8c;
+	margin-bottom: 20px;
+}
+.subscribe a{
+	width: 100px;
+	display: block;
+	color: #fff !important;
+	background: #000;
+	text-decoration: none !important;
+	padding: 5px;
+	text-align: center;
+}
+.offer img{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	margin: -100px;
+	margin-top: 150px;
+}
+/*===== -------- ====== offer part end ===== ------- */
+/*===== -------- ====== latest blog part start ===== ------- */
+.fashion-blog{
+	margin: 250px 0 150px 0;
+}
+.block-img{
+	margin-top: 50px;
+	height: 300px;
+	height: 300px;
+	display: inline-block;
+}
+.block-img img{
+	width: 100%;
+	height: 100%;
+}
+.fashion-blog h5{
+	margin-top: 20px;
+	font-weight: bold;
+}
+/*===== -------- ====== latest blog part end ===== ------- */
+/*===== -------- ====== fashion brand part start ===== ------- */
+.fashion-brand{
+	margin-top: 150px;
+}
+.brand-logo{
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 50px auto 30px;
+	box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 0.18);
+}
+.brand-logo img{
+	width: 100px;
+	margin: 64px 50px;
+}
+.brand-logo-2 img{
+	width: 150px;
+	margin: 52px 25px;
+}
+.fashion-brand p{
+	font-weight: bold;
+	margin-top: 30px;
+}
+/*===== -------- ====== fashion brand part start ===== ------- */
+/*===== -------- ====== footer part start ===== ------- */
+.footer{
+	margin-top: 50px;
+	background: rgba(155, 155, 144, 0.18);
+}
+.payment-part{
+	padding: 50px 0;
+}
+.footer h5{
+	margin-bottom: 50px;
+	position: relative;
+}
+.footer h5::before{
+	content: '';
+	width: 70px;
+	height: 3px;
+	background: #f992a6;
+	bottom: -5px;
+	position: absolute;
+}
+.insta-pic{
+	margin-top: 20px;
+}
+.payment{
+	width: 300px;
+	height: 300px;
+}
+.payment img{
+	width: 100%;
+	margin-top: 20px;
+}
+.copyright{
+	background: #f992a6;
+	padding: 5px 0;
+}
+.copyright-icon{
+	margin-top: 5px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.copyright-icon i{
+	margin-left: 15px;
+}
+.copyright-icon i:nth-child(1){
+	margin-left: 0;
+}
+/*===== -------- ====== footer part end ===== ------- */

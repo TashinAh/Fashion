@@ -1,0 +1,85 @@
+@media screen and (max-width: 991px){
+	.sidebar{
+		background: linear-gradient(#f992a6, lightcyan);
+		backdrop-filter: blur(10px);
+		position: fixed;
+	}
+	.navbar-nav{
+		margin-top: 30%;
+	}
+	.head-icon{
+		margin-top: 30%;
+	}
+	.banner-tittle h1{
+		font-size: 45px;
+	}
+	.banner-tittle{
+		left: 40%;
+		top: 50%;
+	}
+	.banner-tittle h1{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 768px){
+	.banner-tittle h1{
+		font-size: 38px;
+	}
+	.title-style{
+		min-width: 500px;
+	}
+	.banner-tittle{
+		left: 35%;
+		top: 70%;
+	}
+	.banner-img{
+		margin: 80px 100px;
+		width: 60%;
+	}
+}
+@media screen and (max-width: 576px){
+	.banner-tittle h1{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.banner-img{
+		margin: 80px 60px;
+	}
+	.banner-tittle{
+		left: 20%;
+		top: 160px;
+	}
+	.title-style{
+		min-width: 300px;
+	}
+	.title-style h1{
+		font-size: 20px;
+		padding: 50px 0;
+	}
+	.copyright-icon{
+		justify-content: center;
+	}
+	.copyright p{
+		text-align: center;
+	}
+	}
+}
+@media screen and (max-width: 320px){
+	.navbar-brand h1{
+		font-size: 22px;
+	}
+	.banner-img{
+		margin: 80px 30px;
+		width: 60%;
+	}
+	.banner-tittle{
+		left: 20%;
+		top: 100px;
+	}
+	.banner-tittle h1{
+		font-size: 20px;
+	}
+	.title-style{
+		min-width: 200px;
+	}
+}
